@@ -1,0 +1,6 @@
+pytz
+requests
+setuptools
+six
+enum34
+izihawa-commons>=0.0.10

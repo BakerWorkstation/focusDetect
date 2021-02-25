@@ -1,0 +1,18 @@
+[Unit]
+Description=dataRelay
+[Service]
+Type=simple
+WorkingDirectory=/opt/dataRelay/
+ExecStart=/usr/local/bin/python3.6 relayCore.py
+ExecReload=/bin/kill -s SIGUSR2 $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+KillMode=control-group
+Restart=always
+RestartSec=1s
+
+#StartLimitBurst= 0
+#Slice=acd.slice
+#LimitNOFILE=999999
+
+[Install]
+WantedBy=multi-user.target

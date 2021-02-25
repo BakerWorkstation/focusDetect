@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: clickhouse
+Version: 0.1.7
+Summary: A Python library for working with the ClickHouse database
+Home-page: https://github.com/ppodolsky/clickhouse-python
+Author: ppodolsky
+Author-email: ppodolsky@yandex-team.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Database
